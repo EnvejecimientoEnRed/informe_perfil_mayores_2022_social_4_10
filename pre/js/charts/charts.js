@@ -117,10 +117,10 @@ export function initChart(iframe) {
         /////
 
         //Iframe
-        setFixedIframeUrl('informe_perfil_mayores_2022_social_4_10','personas_felices_europa');
+        setFixedIframeUrl('informe_perfil_mayores_2022_social_4_10','personas_felices_sexo_espana');
 
         //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
-        setRRSSLinks('personas_felices_europa');
+        setRRSSLinks('personas_felices_sexo_espana');
 
         //Captura de pantalla de la visualización
         //setChartCanvas();
@@ -131,8 +131,8 @@ export function initChart(iframe) {
         let pngDownload = document.getElementById('pngImage');
 
         pngDownload.addEventListener('click', function(){
-            //setChartCanvasImage('personas_felices_europa');
-            setChartCustomCanvasImage('personas_felices_europa');
+            //setChartCanvasImage('personas_felices_sexo_espana');
+            setChartCustomCanvasImage('personas_felices_sexo_espana');
         });
 
         //Altura del frame
